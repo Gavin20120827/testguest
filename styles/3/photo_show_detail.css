@@ -1,0 +1,205 @@
+@CHARSET "UTF-8";
+
+
+#photo{
+	width:auto;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#photo h2{
+	text-indent:0;
+	text-align:center;
+}
+
+
+
+
+#photo div.re{
+	clear:both;
+	border-top:1px dashed #333;
+	
+}
+
+#photo div.re dl{
+	margin:10px 40px;
+	width:170px;
+	padding:20px 0 0 0;
+	float:left;
+} 
+
+#photo div.re dl dt{
+	width:130px;
+}
+
+#photo div.re dl dt img{
+	margin:0 auto;
+	display:block;
+}
+
+#photo div.re dl dd{
+	height:20px;
+	width:75px;
+	float:left;
+} 
+
+#photo div.re dl dd.email{
+	width:220px;
+}
+
+#photo div.re dl dd.url{
+	width:260px;
+}
+
+#photo div.re dl dd.user{
+	width:180px;
+	padding:0 25px;
+}
+
+
+#photo div.re dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+
+
+#photo div.re div.content{
+    padding:5px 5px 0 0;
+	width:680px;
+	float:right;
+	
+} 
+
+#photo div.content div.user{
+	background:url(../../images/m071.png) no-repeat left center;
+	border-bottom:1px dashed #999;
+	padding:0 20px 0 20px;
+	line-height:40px;
+}
+#photo div.content div.user span{
+	float:right;
+}
+
+
+#photo div.content h3{
+	font-size:14px;
+	line-height:40px;
+}
+
+#photo div.content h3 span{
+	font-size:12px;
+	font-weight:normal;
+	color:#06f;
+}
+
+#photo div.content h3 span a{
+	text-decoration:none;
+	color:#06f;
+}
+
+#photo div.content h3 span a:hover{
+	text-decoration:underline;
+	color:#f60;
+}
+
+#photo div.content #user{
+	background:url(../../images/m071.png) no-repeat left center;
+	border-bottom:1px dashed #999;
+	padding:0 20px 0 20px;
+	line-height:40px;
+}
+
+
+#photo div.content #user span{
+	float:right;
+
+}
+
+
+#photo div.detail{
+	font-size:14px;
+	line-height:200%;
+} 
+
+#photo div.detail p.autograph{
+	color:#666;
+	border-top:1px dashed #666;
+	margin:10px 0;
+	width:60%;
+}
+
+
+
+
+
+
+
+
+#photo dl.detail{
+	text-align:center;
+	margin:40px 40px;
+}
+
+#photo  dl.detail dt img{
+	border:none;
+}
+
+
+#photo  dl.detail dd{
+	padding:1px 0;
+}
+
+
+#photo  dl.detail dd a{
+	color:#333;
+	text-decoration:none;	
+}
+
+
+#photo dl.redetail{
+	width:600px;
+	margin:20px auto;
+	clear:both;
+	border-top:1px dashed #333;
+
+} 
+
+#photo dl.redetail dd{
+	padding:10px 90px;
+} 
+
+#photo dl.redetail dd input.text2{
+	width:250px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#photo dl.redetail dd textarea{
+	width:400px;
+	height:200px;
+	border:1px dashed #333;
+	background:#fff;
+	overflow-y:scroll;
+}
+
+#photo dl.redetail dd input.text4{
+	width:80px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#photo dl.redetail dd input.submit{
+	width:75px;
+	height:30px;
+	border:1px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:0 0 0 140px;
+}
+
+
+
+

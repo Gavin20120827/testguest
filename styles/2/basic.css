@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+*{
+	padding:0;
+	margin:0;	
+}
+
+
+
+body{
+	width:960px;
+	margin:0 auto;
+	background:#eee;
+	font-size:14px;
+}
+
+
+
+/* ul以及h2，直接写，默认就是所有相同的标签都是这个 */
+
+ul{
+	list-style-type:none;
+	text-align:right;
+	padding:30px 50px 0 0;	
+}
+
+h2{
+	font-size:14px;
+	background:orange;
+	height:25px;
+	padding:0 0 0 10px;
+	line-height:25px;
+	
+}
+
+#header{
+	width:auto;
+	height:150px;
+	border:2px solid #ccc;
+	margin:10px 0;
+	
+}
+
+
+#header h1{
+	width:210px;
+	height:39px;
+	margin:40px 0 0 40px;
+}
+
+#header ul li.skin{
+	position:relative;
+}
+
+
+#header ul li dl#skin_switch{
+	position:absolute;
+	top:18px;
+	left:-30px;
+	border:1px dashed #333;
+	width:80px;
+	height:auto;
+	text-align:center;
+	padding:5px;
+	display:none;
+}
+
+#header ul li dl#skin_switch dd{
+	padding:2px;
+}
+
+
+#header ul li{
+	display:inline;
+}
+
+
+
+#header ul li a{
+	text-decoration:none;
+	color:#333;
+}
+
+#header ul li a:hover{
+	color:#f00;
+	text-decoration:underline;	
+}
+
+#page_num {
+	padding:10px 0;
+	clear:both;
+	height:70px;
+	position:relative;
+}
+
+#page_num ul{
+	position:absolute;
+	right:5px;
+	height:20px;
+}
+
+#page_num ul li{
+	float:left;
+	width:30px;
+	height:20px;
+}
+
+#page_num ul li a{
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #333;
+	text-align:center;
+	text-decoration:none;
+}
+
+
+#page_num ul li a:hover,#page_num ul li a.selected{
+	background:#666;
+	font-weight:bold;
+	color:#fff;
+}
+
+#page_text {
+	padding:10px 0;
+	clear:both;
+	height:70px;
+}
+
+#page_text ul{
+	text-align:center;
+}
+	
+#page_text ul li{
+	display:inline;
+}
+
+#page_text ul li a{
+	color:red;
+}
+
+
+#footer{
+	clear:both;
+	width:auto;
+	height:60px;
+	text-align:center;
+	padding:5px 0 0 0;
+}
+
+#footer p{
+	font-size:12px;
+	padding:5px 0 0 0;
+}
+

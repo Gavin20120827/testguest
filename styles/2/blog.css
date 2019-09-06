@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+
+#blog{
+	width:auto;
+	height:800px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#blog h2{
+	text-indent:0;
+	text-align:center;
+}
+
+#blog dl{
+	margin:5px 20px;
+	width:150px;
+	float:left;
+}
+
+#blog dl dt{
+
+	width:150px;
+}
+
+#blog dl dt img{
+	margin:0 auto;
+	display:block;
+}
+
+#blog dl dd{
+	height:20px;
+	float:left;
+	width:75px;
+}
+
+#blog dl dd.user{
+	width:100px;
+	float:none;
+	padding:0 50px;
+	
+}
+
+#blog dl dd a{
+	text-decoration:none;
+	color:#333;
+
+}
+
+
+//背景图片的设置方式
+/* #blog dl dd.message{
+background:url(../../images/icon1.png) no-repeat left（或者10px这样具体的值） center（或者：10%）;
+	
+} */
+

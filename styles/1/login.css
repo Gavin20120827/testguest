@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+#login{
+	width:auto;
+	height:400px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#login h2{
+	text-indent:0;
+	text-align:center;
+}
+
+#login dl{
+	width:300px;
+	height:200px;
+	margin:20px auto;
+	padding:10px 0 0 0
+}
+
+
+#login dl dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#login dl dd input.text1{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 15px;
+}
+
+#login dl dd input.text2{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:10px 0 10px 23px;
+}
+
+#login dl dd input.text3{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 3px;
+}
+
+#login dl dd input.text4{
+	width:120px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+	
+}
+
+#login dl dd input.text5{
+	border:1px dashed #333;
+	margin:0 20 0 50px;
+	
+}
+
+#login dl dd input.submit{
+	width:60px;
+	height:50px;
+	border:2px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:20px 0 0 90px;
+}
+
+#login dl dd input.btn{
+	width:60px;
+	height:50px;
+	border:2px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:20px 0 0 40px;
+}

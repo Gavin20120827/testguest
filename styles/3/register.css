@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+/* // 最后的是设置整个表单的字体 */
+#register{
+	width:auto;
+	height:700px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#register h2{
+	text-indent:0;
+	text-align:center;
+}
+
+
+#register dl{
+	width:400px;
+	height:500px;
+	margin:80px auto;
+	border:1px dashed #333;
+}
+
+
+#register dl dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+
+
+/* //上下字体和方框间隔 */
+#register dl dd{
+	padding:5px 0;
+}
+
+/* //单独设置图片居中 */
+#register dl dd.face{
+	padding:0 120px;
+}
+
+
+#register dl dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+
+#register dl dd.face img{
+	cursor:pointer;
+}
+
+#register dl dd input.text{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+}
+
+#register dl dd input.text1{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 20px;
+}
+
+#register dl dd input.text2{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#register dl dd input.text3{
+	width:220px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 22px;
+}
+
+#register dl dd input.text4{
+	width:80px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+	
+}
+
+#register dl dd input.submit{
+	width:50px;
+	height:19px;
+	border:1px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:0 0 0 140px;
+}

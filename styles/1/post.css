@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+
+/* // 最后的是设置整个表单的字体 */
+#post{
+	width:auto;
+	height:700px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#post h2{
+	text-indent:0;
+	text-align:center;
+}
+
+
+#post dl{
+	width:600px;
+	height:500px;
+	margin:80px auto;
+	border:1px dashed #333;
+}
+
+
+#post dl dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+
+
+/* //上下字体和方框间隔 */
+#post dl dd{
+	padding:10px 90px;
+}
+
+#post dl dd div#ubb{
+	width:400px;
+	height:26px;
+	border: 1px dashed #333 ;
+	border-bottom:1px solid #666;
+	background:#e5dfeb;
+}
+
+
+#post dl dd label{
+	cursor:pointer;
+}
+
+#post dl dd input.text2{
+	width:250px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#post dl dd textarea{
+	width:400px;
+	height:200px;
+	border:1px dashed #333;
+	background:#fff;
+	overflow-y:scroll;
+	
+}
+
+#post dl dd input.text4{
+	width:80px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+	
+}
+
+#post dl dd input.submit{
+	width:75px;
+	height:30px;
+	border:1px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:0 0 0 140px;
+	
+}

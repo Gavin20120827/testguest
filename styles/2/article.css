@@ -1,0 +1,265 @@
+@CHARSET "UTF-8";
+/* margin与display组合可以居中元素；先设定width，然后使用margin auto也可以居中元素；float与width组合可以布置元素的位置。如果是几个非块元素用了float，
+默认是竖着排的，但是用了float left，可以横着排。出现侵占上级div的情况，基本都是忘记使用clear both */
+
+
+#article{
+ 	border:2px solid #ccc;
+	font-size:12px;	
+}
+
+#article h2{
+	text-indent:0;
+	text-align:center;
+}
+
+#article #subject dl{
+	margin:10px 40px;
+	width:170px;
+	padding:20px 0 0 0;
+	float:left;
+} 
+
+#article #subject dl dt{
+	width:130px;
+}
+
+#article #subject dl dt img{
+	margin:0 auto;
+	display:block;
+}
+
+#article #subject dl dd{
+	height:20px;
+	width:75px;
+	float:left;
+} 
+
+#article #subject dl dd.email{
+	width:220px;
+}
+
+#article #subject dl dd.url{
+	width:260px;
+}
+
+#article #subject dl dd.user{
+	width:150px;
+	padding:0 25px;
+}
+
+
+#article #subject dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+
+
+
+
+#article #subject div.content{
+    padding:5px 5px 0 0;
+	width:680px;
+	float:right;
+} 
+
+
+#article div.content h3{
+	font-size:14px;
+	line-height:40px;
+}
+
+#article div.content div.user{
+	background:url(../../images/m071.png) no-repeat left center;
+	border-bottom:1px dashed #999;
+	padding:0 20px 0 20px;
+	line-height:40px;
+}
+#article div.content div.user span{
+	float:right;
+}
+
+#article div.content #detail{
+	font-size:14px;
+	line-height:200%;
+}
+
+#article div.content #detail p.autograph{
+	color:#666;
+	border-top:1px dashed #666;
+	margin:10px 0;
+	width:60%;
+
+}
+
+#article div.content #read{
+	line-height:200%;
+	font-size:14px;
+	color:#666;
+	
+}
+
+#article div.content #read p{
+	text-align:right;
+}
+
+
+
+
+#article div.re{
+	clear:both;
+	border-top:1px dashed #333;
+}
+
+#article div.re dl{
+	margin:10px 40px;
+	width:170px;
+	padding:20px 0 0 0;
+	float:left;
+} 
+
+#article div.re dl dt{
+	width:130px;
+}
+
+#article div.re dl dt img{
+	margin:0 auto;
+	display:block;
+}
+
+#article div.re dl dd{
+	height:20px;
+	width:75px;
+	float:left;
+} 
+
+#article div.re dl dd.email{
+	width:220px;
+}
+
+#article div.re dl dd.url{
+	width:260px;
+}
+
+#article div.re dl dd.user{
+	width:180px;
+	padding:0 25px;
+}
+
+
+#article div.re dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+
+
+#article div.re div.content{
+    padding:5px 5px 0 0;
+	width:680px;
+	float:right;
+	
+} 
+
+
+#article div.content h3{
+	font-size:14px;
+	line-height:40px;
+}
+
+#article div.content h3 span{
+	font-size:12px;
+	font-weight:normal;
+	color:#06f;
+}
+
+#article div.content h3 span a{
+	text-decoration:none;
+	color:#06f;
+}
+
+#article div.content h3 span a:hover{
+	text-decoration:underline;
+	color:#f60;
+}
+
+#article div.content #user{
+	background:url(../../images/m071.png) no-repeat left center;
+	border-bottom:1px dashed #999;
+	padding:0 20px 0 20px;
+	line-height:40px;
+}
+
+#article div.detail{
+	font-size:14px;
+	line-height:200%;
+} 
+
+#article div.detail p.autograph{
+	color:#666;
+	border-top:1px dashed #666;
+	margin:10px 0;
+	width:60%;
+}
+
+
+#article #line{
+	clear:both;
+ 	border-top:1px dashed #333;
+	width:95%;
+	margin:0 auto;
+} 
+
+#article #line dl{
+	width:600px;
+	margin:20px auto;
+} 
+
+#article #line dl dd{
+	padding:10px 90px;
+} 
+
+#article #line dl dd input.text2{
+	width:250px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#article #line dl dd textarea{
+	width:400px;
+	height:200px;
+	border:1px dashed #333;
+	background:#fff;
+	overflow-y:scroll;
+}
+
+#article #line dl dd input.text4{
+	width:80px;
+	height:19px;
+	border:1px dashed #333;
+	margin:0 0 0 12px;
+}
+
+#article #line dl dd input.submit{
+	width:75px;
+	height:30px;
+	border:1px dashed #333；
+	background:#fff;
+	cursor:pointer;
+	margin:0 0 0 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

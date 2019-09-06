@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+
+#member{
+	width:auto;
+	height:800px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#member h2{
+	height:30px;
+	text-indent:0;
+	text-align:center;
+}
+
+#member #member_sidebar{
+	border:1px dashed #999;
+	width:300px;
+	height:500px;
+	margin:15px;
+	float:left;
+}
+
+#member #member_sidebar dl {
+	width:250px;
+	margin:15px auto;
+}
+
+#member #member_sidebar dl dt {
+	height:40px;
+	background:#999;
+	margin:15px auto;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	line-height:40px;
+}
+
+#member #member_sidebar dl dd {
+	height:40px;
+	margin:15px auto;
+	font-weight:bold;
+	text-align:center;
+	background:#eee;
+	line-height:40px;
+}
+
+#member #member_sidebar dl dd a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+
+#member #member_sidebar dl dd a:hover{
+	background:#ccc;
+}
+
+
+#member #member_message_detail{
+	border:1px dashed #999;
+	width:580px;
+	height:500px;
+	float:right;
+	margin:15px;
+}
+
+#member #member_message_detail dl{
+	width:90%;
+	margin:10px auto;
+
+}
+
+#member #member_message_detail dl dd{
+	margin:5px;
+	line-height:150%;
+}
+
+#member #member_message_detail dl dd input{
+	width:70px;
+	height:30px;
+
+	font-size:12px;
+	cursor:pointer;
+
+}
+
+#member #member_message_detail dl dd.button{
+	text-align:center;
+
+}
